@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mustache": "^4.2.0",
+    "socket.io": "^4.4.1"
+  },
+  "name": "chattym",
+  "version": "1.0.0",
+  "description": "Chat System With Sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    ".": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghoes18/Chattym.git"
+  },
+  "author": "Gonçalo Guimarães",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ghoes18/Chattym/issues"
+  },
+  "homepage": "https://github.com/Ghoes18/Chattym#readme"
+}
